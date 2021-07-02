@@ -11,7 +11,11 @@ public class Main {
         empl[3] = new Employee("3_Vun", "Van", "Ven", "VunVanVen@mail.org", "8(920)920-80-10", 7900, 42);
         empl[4] = new Employee("4_Sur", "Sar", "Ser", "SurSarSer@mail.org", "8(920)920-70-70", 27900, 81);
         for (int i = 0; i < empl.length; i++) {
-            System.out.println(empl[i]);
+            if(empl[i].getAge()>40){
+                System.out.println(empl[i]);
+            }
+
+
         }
     }
 }
