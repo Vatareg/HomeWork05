@@ -9,6 +9,10 @@ public class Employee {
     int salary;
     int age;
 
+    public String getName() {
+        return name;
+    }
+
     public Employee(String surName, String name, String middleName, String eMail, String phoneNumber, int salary, int age) {
         this.surName = surName;
         this.name = name;
